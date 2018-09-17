@@ -24,7 +24,7 @@
 <div class="docs-wrapper container">
 
 	<section class="sidebar">
-		<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CKYILK3E&placement=laravelcom" id="_carbonads_js"></script>
+		
 		<small><a href="#" id="doc-expand" style="font-size: 11px; color: #B8B8B8;">Expand All</a></small>
 		{!! $index !!}
 	</section>
@@ -37,7 +37,18 @@
 	</div> --}}
 
 	<article>
+		<a href="#Code Snippets">Code Snippets</a>
 		{!! $content !!}
 	</article>
+	<hr>
+	<p><a name="Code Snippets"></a></p>
+	<h3>Code Snippets</h3>
+	<hr>
+	<div class="codesnippets" style="border:1px dotted green;">
+		@foreach($codes as $key => $code)
+			{{-- {{'Snippet_' . $key}} --}}
+			<pre style="border: 1px dashed green;"><code>{{$code}}</code></pre>
+		@endforeach
+	</div>
 </div>
 @endsection

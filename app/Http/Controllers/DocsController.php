@@ -69,6 +69,10 @@ class DocsController extends Controller
 
         $title = (new Crawler($content))->filterXPath('//h1');
 
+        $codes = (new Crawler($content))->filter('pre > code')->each(function (Crawler $node, $i) {
+    return $node->text();
+});
+        // dd($codes);
         $section = '';
 
         if ($this->docs->sectionExists($version, $page)) {
@@ -91,6 +95,7 @@ class DocsController extends Controller
             'versions' => Documentation::getDocVersions(),
             'currentSection' => $section,
             'canonical' => $canonical,
+            'codes' => $codes
         ]);
     }
 

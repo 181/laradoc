@@ -3,7 +3,7 @@
 body {
 	color: $color__gray;
 	font-family: $font;
-	font-size: 16px;
+	font-size: 18px;
 	background: #fff url('/assets/img/cloud-bar.png') repeat-x;
 	padding-top: 10px;
 }
@@ -80,4 +80,10 @@ blockquote {
     .third {
         flex-basis: 100%;
     }
+}
+
+.codesnippets {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }

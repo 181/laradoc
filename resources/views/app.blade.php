@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>{{ isset($title) ? $title . ' - ' : null }}Laravel - The PHP Framework For Web Artisans</title>
+    <title>{{ isset($title) ? $title . ' - ' : null }}LocalDoc</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="author" content="Taylor Otwell">
     <meta name="description" content="Laravel - The PHP framework for web artisans.">
@@ -14,19 +14,12 @@
     <link href='https://fonts.googleapis.com/css?family=Miriam+Libre:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ elixir('assets/css/laravel.css') }}">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7737514/7707592/css/fonts.css" />
+    {{-- <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7737514/7707592/css/fonts.css" /> --}}
     <link rel="apple-touch-icon" href="/favicon.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js"></script>
 </head>
-<body class="@yield('body-class', 'docs') language-php">
-    <div class="laracon-banner">
-        <!-- <img src="/assets/svg/laracon-logo.svg" alt=""> -->
-        Laravel Nova is now available!
-        <a href="https://nova.laravel.com">Get your copy today!</a>
-
-<!--         Spark 6.0, the official SaaS starter-kit built on Laravel, is now available!
-        <a href="https://spark.laravel.com">Get your copy today!</a> -->
-    </div>
+<body class="@yield('body-class', 'docs') language-php" id="top">
+    
     <span class="overlay"></span>
 
     <nav class="main">
@@ -66,6 +59,7 @@
                 {!! svg('jack-mcdade') !!}
             </a>
         </p>
+        <a href="#top">Bk2Top</a>
     </footer>
 
     <script>

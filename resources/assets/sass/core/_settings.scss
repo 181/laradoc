@@ -1,8 +1,10 @@
 
 // Colors //
 
-$color__salmon:         #f4645f;
-$color__darker_salmon:  #e74430;
+// $color__salmon:         #f4645f;
+$color__salmon:         #159f23;
+// $color__darker_salmon:  #e74430;
+$color__darker_salmon:  #8dd02a;
 $color__faint:          #f0f2f1;
 $color__gray:           #525252;
 $color__light_gray:     #aeaeae;
@@ -12,6 +14,6 @@ $color__teal:           #27b4a8;
 // Fonts //
 
 $font_headline:         "Whitney A", "Whitney B", sans-serif;
-$font:                  "Whitney SSm A", "Whitney SSm B", sans-serif;
+$font:                  sans-serif "Whitney SSm A", "Whitney SSm B";
 $font_alt:              'Miriam Libre', sans-serif;
 $font_code:             'Operator Mono', 'Fira Code', Consolas, Monaco, 'Andale Mono', monospace;
