@@ -49,7 +49,8 @@ class CacheResponse
      * @return bool
      */
     protected function shouldCache($request, $response)
-    {
+    { 
+        // If it is a get request and the file exists, cache it.
         return $request->isMethod('GET') && $response->getStatusCode() == 200;
     }
 

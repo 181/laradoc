@@ -59,7 +59,7 @@
                 {!! svg('jack-mcdade') !!}
             </a>
         </p>
-        <a href="#top">Bk2Top</a>
+        <a href="#top">⬆️ 2Top</a>
     </footer>
 
     <script>

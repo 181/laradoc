@@ -37,18 +37,22 @@
 	</div> --}}
 
 	<article>
-		<a href="#Code Snippets">Code Snippets</a>
+		@if($codes)
+			<a href="#Code Snippets" style="text-decoration: none;">♻️ Code Snippets</a>
+		@endif
 		{!! $content !!}
 	</article>
-	<hr>
-	<p><a name="Code Snippets"></a></p>
-	<h3>Code Snippets</h3>
-	<hr>
-	<div class="codesnippets" style="border:1px dotted green;">
-		@foreach($codes as $key => $code)
-			{{-- {{'Snippet_' . $key}} --}}
-			<pre style="border: 1px dashed green;"><code>{{$code}}</code></pre>
-		@endforeach
-	</div>
+	@if($codes)
+		<hr>
+		<p><a name="Code Snippets"></a></p>
+		<h3>Code Snippets <small><a href="#top"> 🚀 2top</a></small></h3> 
+		<hr>
+		<div class="codesnippets" style="border:1px dotted green;">
+			@foreach($codes as $key => $code)
+				{{-- {{'Snippet_' . $key}} --}}
+				<pre style="border: 1px dashed green;"><code>{!!'/**'.$key.'*/'!!}</code><br><code>{{$code}}</code></pre>
+			@endforeach
+		</div>
+	@endif
 </div>
 @endsection
