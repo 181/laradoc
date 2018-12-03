@@ -117,6 +117,13 @@
                             <div class="flag">🇺🇦</div>
                         </div>
                     </a>
+
+                    <a href="/partner/cyber-duck" class="partner-card mr-2">
+                        <div class="partner-card-banner partner-card-md partner-logo-banner-cyberduck">
+                            <img src="/assets/img/partner-img-cyberduck-logo-white.png" alt="Cyber Duck Logo" style="width: 300px">
+                            <div class="flag">🇬🇧</div>
+                        </div>
+                    </a>
                 </div>
 
                 <div class="flex-row">

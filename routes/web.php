@@ -50,6 +50,11 @@ Route::get('/partner/ideil', function () {
     return view('community-partner-ideil');
 });
 
+Route::get('/partner/cyber-duck', function () {
+    return view('community-partner-cyber-duck');
+});
+
+
 Route::get('/discord', function () {
     return redirect('https://discord.gg/wTgA8jR');
 });
