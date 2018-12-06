@@ -24,7 +24,7 @@
             <div class="partner-logo" style="margin-top: 14px;"><img src="/assets/img/partner-img-cyberduck-logo.png" width="240"></div>
             <div class="partner-ctas">
                 <a href="https://www.cyber-duck.co.uk/our-culture/careers"><div class="btn btn-primary">Get Hired</div></a>
-                <a href="https://www.cyber-duck.co.uk"><div class="btn btn-default">Visit Website</div></a>
+                <a href="https://www.cyber-duck.co.uk/how-we-work/technology/laravel"><div class="btn btn-default">Visit Website</div></a>
             </div>
         </div>
 
