@@ -1926,6 +1926,8 @@ pre.line-numbers > code {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .packages:after {
@@ -1934,19 +1936,31 @@ pre.line-numbers > code {
   clear: both;
 }
 
-.packages .third:not(:last-child) {
-  border-right: 2px solid #f0f1f3;
-}
-
-.packages .package {
-  margin-bottom: 30px;
+.packages .package-row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.packages .package:last-child {
-  margin-bottom: 0;
+.packages .package-row:last-child .package {
+  padding-bottom: 0;
+}
+
+.packages .package {
+  width: 33.33%;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-bottom: 30px;
+}
+
+.packages .package:not(:last-child) {
+  border-right: 2px solid #f0f1f3;
+}
+
+.packages .package {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .packages .package .package-title {
@@ -1979,27 +1993,17 @@ pre.line-numbers > code {
 }
 
 @media all and (max-width: 800px) {
-  .packages {
+  .packages .package-row {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 
-  .packages .third {
-    border: none !important;
-  }
-
   .packages .package {
+    width: 100%;
+    border-right-width: 0 !important;
     border-bottom: 1px solid #f0f1f3;
-    padding-bottom: 15px;
-  }
-
-  .packages .package:last-child {
+    padding-bottom: 15px !important;
     margin-bottom: 30px;
-  }
-
-  .packages .last {
-    border: none;
-    margin-bottom: 0 !important;
   }
 }
 
