@@ -20,8 +20,8 @@
 <body class="@yield('body-class', 'docs') language-php">
     <div class="laracon-banner">
         <!-- <img src="/assets/svg/laracon-logo.svg" alt=""> -->
-        Laravel Nova is now available!
-        <a href="https://nova.laravel.com">Get your copy today!</a>
+        Laracon US 2019 tickets are now available!
+        <a href="https://www.eventbrite.com/e/laracon-us-2019-tickets-51733090065">Get your tickets today!</a>
 
 <!--         Spark 6.0, the official SaaS starter-kit built on Laravel, is now available!
         <a href="https://spark.laravel.com">Get your copy today!</a> -->
