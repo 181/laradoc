@@ -56,7 +56,7 @@ Route::get('/partner/cyber-duck', function () {
 
 
 Route::get('/discord', function () {
-    return redirect('https://discord.gg/wTgA8jR');
+    return redirect('https://discord.gg/mPZNm7A');
 });
 
 Route::get('/certification', function () {
