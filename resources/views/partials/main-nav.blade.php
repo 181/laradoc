@@ -23,6 +23,7 @@
 
 		<li class="divider"></li>
 
+		<li><a href="https://blog.laravel.com">Blog</a></li>
 		<li><a href="https://laravel.com/certification">Certification</a></li>
 		<li><a href="https://laracasts.com/discuss">Forums</a></li>
 		<li><a href="https://github.com/laravel/laravel">GitHub</a></li>
