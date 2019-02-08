@@ -30,5 +30,6 @@
 		<li><a href="http://www.laravelpodcast.com/">Podcast</a></li>
 		<li><a href="https://larachat.co">Slack</a></li>
 		<li><a href="https://twitter.com/laravelphp">Twitter</a></li>
+		<li><a href="https://blog.laravel.com">Blog</a></li>
 	</ul>
 </li>
