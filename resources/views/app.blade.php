@@ -21,8 +21,8 @@
     <div class="laracon-banner">
         <!-- <img src="/assets/svg/laracon-logo.svg" alt=""> -->
 
-        Laracon Online tickets are now available!
-        <a href="https://laracon.net">Get your tickets today!</a>
+        Laracon EU tickets are now available!
+        <a href="https://laracon.eu">Get your tickets today!</a>
 
 <!--         Laracon US 2019 tickets are now available!
         <a href="https://www.eventbrite.com/e/laracon-us-2019-tickets-51733090065">Get your tickets today!</a> -->
