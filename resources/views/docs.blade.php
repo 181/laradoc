@@ -16,6 +16,21 @@
 
 	<div class="slide-docs-nav">
 		<h2>Documentation</h2>
+
+		<ul class="slide-docs-version">
+			<li>
+				<h2>Version</h2>
+
+				<ul>
+					<li>
+						@if (isset($currentVersion))
+							@include('partials.switcher')
+						@endif
+					</li>
+				</ul>
+			</li>
+		</ul>
+
 		{!! $index !!}
 	</div>
 
