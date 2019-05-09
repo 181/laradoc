@@ -11,7 +11,7 @@ $topColor: lighten($bottomColor, 2%);
 	background-color: #fff;
 	border: 1px solid #ddd;
 	box-shadow: 0px 2px 8px rgba(0,0,0,.1);
-	overflow: overlay;
+	// overflow: overlay;
 	.top-bar {
 		height: 30px;
 		border-radius: 4px 4px 0 0;

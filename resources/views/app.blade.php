@@ -18,11 +18,11 @@
     <link rel="apple-touch-icon" href="/favicon.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js"></script>
 </head>
-<body class="@yield('body-class', 'docs') language-php" id="top">
+<body class="@yield('body-class', 'docs') language-php" >
     
-    <span class="overlay"></span>
+    {{-- <span class="overlay"></span> --}}
 
-    <nav class="main">
+    <nav class="main" id="top">
         <a href="/" class="brand nav-block">
             {!! svg('laravel-logo') !!}
             <span>Laravel</span>
@@ -73,13 +73,13 @@
     <script src="{{ mix('/assets/js/laravel.js') }}"></script>
     <script src="/assets/js/viewport-units-buggyfill.js"></script>
     <script>window.viewportUnitsBuggyfill.init();</script>
-    <script>
+    {{-- <script>
         var _gaq=[['_setAccount','UA-23865777-1'],['_trackPageview']];
         (function(d,t){
             var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)
         }(document,'script'));
-    </script>
+    </script> --}}
 </body>
 </html>
