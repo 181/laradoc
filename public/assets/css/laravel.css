@@ -449,8 +449,8 @@ th {
 
 body {
   color: #525252;
-  font-family: "Whitney SSm A", "Whitney SSm B", sans-serif;
-  font-size: 16px;
+  font-family: sans-serif "Whitney SSm A", "Whitney SSm B";
+  font-size: 18px;
   background: #fff url("/assets/img/cloud-bar.png") repeat-x;
   padding-top: 10px;
 }
@@ -469,7 +469,7 @@ h4 {
 }
 
 a {
-  color: #f4645f;
+  color: #159f23;
   text-decoration: none;
 }
 
@@ -494,7 +494,7 @@ p strong {
 
 p code {
   background: #f0f2f1;
-  color: #f4645f;
+  color: #159f23;
   padding: 1px 5px;
   border-radius: 3px;
 }
@@ -508,7 +508,7 @@ samp {
 }
 
 blockquote {
-  background: #f4645f;
+  background: #159f23;
   color: #fff;
   border-radius: 3px;
   margin: 10px 0 20px;
@@ -547,6 +547,17 @@ blockquote a {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
+}
+
+.codesnippets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .btn {
@@ -1315,7 +1326,7 @@ pre[class*="language-"] {
 
 :not(pre) > code[class*="language-"] {
   background: #f0f2f1;
-  color: #f4645f;
+  color: #159f23;
   padding: 1px 5px;
   border-radius: 3px;
 }
@@ -1554,7 +1565,7 @@ pre.line-numbers > code {
 }
 
 .slide-menu {
-  background: #f4645f;
+  background: #159f23;
   padding: 0 20px;
   left: -70%;
 }
@@ -1703,7 +1714,7 @@ pre.line-numbers > code {
 .btn {
   border: none;
   border-radius: 3px;
-  background: #f4645f;
+  background: #159f23;
   color: #fff;
   padding: 10px 15px;
   font-size: 16px;
@@ -1715,7 +1726,7 @@ pre.line-numbers > code {
 
 .btn:hover,
 .btn:active {
-  background: #e74430;
+  background: #8dd02a;
   color: #fff;
 }
 
@@ -1738,7 +1749,7 @@ pre.line-numbers > code {
 
 .callout.rule {
   border-bottom: 1px solid #dee0df;
-  color: #f4645f;
+  color: #159f23;
   text-align: center;
   font-family: "Miriam Libre", sans-serif;
   font-size: 13px;
@@ -1798,13 +1809,13 @@ pre.line-numbers > code {
 }
 
 .callout.pop {
-  background: #f4645f;
+  background: #159f23;
   -webkit-transition: all .2s ease;
   transition: all .2s ease;
 }
 
 .callout.pop:hover {
-  background: #dc5a56;
+  background: #138f20;
   -webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
           box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
 }
@@ -2031,7 +2042,7 @@ footer.main > ul > li > a {
 }
 
 footer.main > ul > li > a:hover {
-  color: #f4645f;
+  color: #159f23;
 }
 
 footer.main p {
@@ -2048,7 +2059,7 @@ footer.main p a {
 }
 
 footer.main p a:hover {
-  color: #f4645f;
+  color: #159f23;
 }
 
 footer.main p.less-significant {
@@ -2067,7 +2078,7 @@ footer.main p.less-significant a svg {
 }
 
 footer.main p.less-significant a:hover svg path {
-  fill: #f4645f;
+  fill: #159f23;
 }
 
 footer.main .dropdown-menu {
@@ -2108,7 +2119,7 @@ nav.main .nav-block {
 
 nav.main a.brand {
   border-right: 1px solid #dee0df;
-  color: #e74430;
+  color: #8dd02a;
   font-family: "Miriam Libre", sans-serif;
   font-size: 18px;
   float: left;
@@ -2160,7 +2171,7 @@ nav.main ul.main-nav > li > a {
 }
 
 nav.main ul.main-nav > li > a:hover {
-  color: #f4645f;
+  color: #159f23;
   border-color: initial;
 }
 
@@ -2211,6 +2222,13 @@ nav.main .search .twitter-typeahead input::-webkit-input-placeholder {
   letter-spacing: 3px;
 }
 
+nav.main .search .twitter-typeahead input::-moz-placeholder {
+  font-family: "Miriam Libre", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
 nav.main .search .twitter-typeahead input::-ms-input-placeholder {
   font-family: "Miriam Libre", sans-serif;
   font-size: 12px;
@@ -2226,7 +2244,7 @@ nav.main .search .twitter-typeahead input::placeholder {
 }
 
 nav.main ul.main-nav > li.active a {
-  color: #f4645f;
+  color: #159f23;
 }
 
 nav.main .community-dropdown .dropdown-menu {
@@ -2384,7 +2402,7 @@ nav.main .switcher .dropdown-menu > li > a {
 }
 
 .panel.standout {
-  background-color: #f4645f;
+  background-color: #159f23;
   color: #fff;
 }
 
@@ -2430,7 +2448,7 @@ nav.main .switcher .dropdown-menu > li > a {
 }
 
 .panel.laracon {
-  background: #f4645f url("/assets/img/laracon-bg.jpg") center center no-repeat;
+  background: #159f23 url("/assets/img/laracon-bg.jpg") center center no-repeat;
   padding: 60px 0;
   text-align: center;
   -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, 0.3);
@@ -2460,7 +2478,7 @@ nav.main .switcher .dropdown-menu > li > a {
 .panel.laracon .btn {
   background: rgba(255, 255, 255, 0.85);
   border-radius: 60px;
-  color: #f4645f;
+  color: #159f23;
   margin: 10px;
   width: 260px;
   font-size: 18px;
@@ -2516,7 +2534,7 @@ nav.main .switcher .dropdown-menu > li > a {
 .panel.features .blocks .block .text h2 {
   font-size: 24px;
   font-weight: 400;
-  color: #f4645f;
+  color: #159f23;
 }
 
 .panel.features .blocks .block .media {
@@ -2729,7 +2747,7 @@ nav.main .switcher .dropdown-menu > li > a {
   -webkit-transition: color 0.1s linear;
   transition: color 0.1s linear;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
-  font-family: "Whitney SSm A", "Whitney SSm B", sans-serif;
+  font-family: sans-serif "Whitney SSm A", "Whitney SSm B";
 }
 
 .sidebar h2:focus {
@@ -2793,7 +2811,7 @@ nav.main .switcher .dropdown-menu > li > a {
 }
 
 .sidebar a:hover {
-  color: #e74430;
+  color: #8dd02a;
 }
 
 @media (max-width: 1080px) {
@@ -2944,7 +2962,7 @@ nav.main .switcher .dropdown-menu > li > a {
 }
 
 .community h2 {
-  color: #f4645f;
+  color: #159f23;
   font-weight: 400;
   -webkit-margin-before: 0em;
 }
@@ -3046,7 +3064,7 @@ nav.main .switcher .dropdown-menu > li > a {
 }
 
 .text-red {
-  color: #f4645f;
+  color: #159f23;
 }
 
 .partner-card-body {
@@ -3211,13 +3229,13 @@ nav.main .switcher .dropdown-menu > li > a {
 }
 
 .partner-ctas .btn-primary {
-  border: 2px solid #f4645f;
+  border: 2px solid #159f23;
 }
 
 .partner-ctas .btn-default {
   background-color: white;
-  border: 2px solid #f4645f;
-  color: #f4645f;
+  border: 2px solid #159f23;
+  color: #159f23;
 }
 
 .partner-ctas .partner-ctas-visible-mobile {
@@ -3386,7 +3404,7 @@ nav.main .switcher .dropdown-menu > li > a {
 }
 
 .docs article p {
-  font-size: 13px;
+  font-size: 18px;
   line-height: 1.9;
 }
 
@@ -3405,7 +3423,7 @@ nav.main .switcher .dropdown-menu > li > a {
 .docs article h1 + ul li:before {
   content: "# ";
   margin-right: .25em;
-  color: #f4645f;
+  color: #159f23;
   opacity: .3;
 }
 
@@ -3443,7 +3461,7 @@ nav.main .switcher .dropdown-menu > li > a {
   margin-left: -25px;
   position: absolute;
   font-size: 28px;
-  color: #f4645f;
+  color: #159f23;
   opacity: .6;
 }
 
@@ -3466,11 +3484,11 @@ nav.main .switcher .dropdown-menu > li > a {
 }
 
 .docs article a:hover {
-  color: #f1362f;
+  color: #0f7219;
 }
 
 .docs article blockquote a:hover {
-  color: #fcd8d6;
+  color: #4ce75c;
 }
 
 .docs article table {
